@@ -1,0 +1,10 @@
+Firebird Configurations
+=======================
+1. Add the template code.
+2. Declare int botId as a global variable. In main function initialize botId to a unique number.
+
+Zigbee Configurations
+=====================
+3. Configure ZigBee module's destination address low as 4076DDB5 and destination address high as 13A200.
+4. If Zigbee didn't work, in uart0_init change the value of UBRR0L from 0x5F to 0x47.
+5. Change PAN to 1111.
